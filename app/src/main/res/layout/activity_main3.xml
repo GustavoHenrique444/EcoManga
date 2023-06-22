@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:onClick="metodoAleatorio1"
+    tools:context=".MainActivity3">
+
+    <ImageButton
+        android:id="@+id/manga_man"
+        android:layout_width="118dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/white"
+        android:onClick="metodoAleatorioman"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manga_one"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/chainsawman"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/manga_one"
+        android:layout_width="117dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-190dp"
+        android:background="@color/white"
+        android:onClick="metodoAleatorioone"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manga_jojo"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/whatsapp_image_2023_06_21_at_08_22_21__1_"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/manga_jojo"
+        android:layout_width="115dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"
+        android:onClick="metodoAleatoriojojo"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/manga_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2023_06_21_at_08_22_20"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnsair"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="345dp"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ilustra__o_sem_t_tulo"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="217dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="31dp"
+        android:text="@string/jojo_s_conta_a_hist_ria_da_fam_lia_joestar_uma_fam_lia_cujos_v_rios_membros_descobrem_que_est_o_destinados_a_derrubar_inimigos_sobrenaturais_tais_como_dio_brando_um_vampiro_semi_imortal_yoshikage_kira_um_serial_killer_e_diavolo_um_l_der_de_gangue_usando_poderes_nicos_que_possuem"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/manga_jojo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="208dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/one_piece_conta_as_aventuras_de_monkey_d_luffy_um_jovem_cujo_corpo_ganhou_as_propriedades_de_borracha_ap_s_ter_comido_um_fruto_do_diabo_acidentalmente_com_sua_tripula_o_os_piratas_do_chap_u_de_palha_luffy_explora_a_grand_line_em_busca_do_tesouro_mais_procurado_do_mundo_o_quot_one_piece_quot_a_fim_de_se_tornar_o_pr_ximo_rei_dos_piratas"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/manga_man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/manga_one"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="205dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/a_trama_do_projeto_acompanha_a_hist_ria_de_denji_um_adolescente_que_passa_por_dificuldades_financeiras_at_que_certo_dia_ele_morre_e_renasce_como_o_homem_motosserra_ap_s_um_pacto_com_um_dem_nio"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/manga_man"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.208"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
