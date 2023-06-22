@@ -1,5 +1,5 @@
 # EcoManga
-##Integrates: Ana Beatriz Abreu dos Santos e Gustavo Henrique da Silva Souza
+## Integrates: Ana Beatriz Abreu dos Santos e Gustavo Henrique da Silva Souza
 **Nomeapp: EcoMangá**
 
 No total foram 6 activitys usadas no projeto 
