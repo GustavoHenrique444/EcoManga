@@ -51,5 +51,5 @@ Essas características combinadas criam uma experiência atraente e informativa 
 
 <details>
     <summary><h1>Diagrama de Classe</h1></summary>
-    <center><img src="Imagens/Diagrama.png"></center>
+    <center><img src="Downloads/Diagrama.png"></center>
 </details>
