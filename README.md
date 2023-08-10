@@ -51,7 +51,8 @@ Essas características combinadas criam uma experiência atraente e informativa 
 
 <details>
     <summary><h1>Diagrama de Classe</h1></summary>
-    <center><img src="Diagrama.png"></center>
+    <center><img src="![Diagrama](https://github.com/GustavoHenrique444/EcoManga/assets/127442583/4e98db89-7f76-44ab-bc37-7db180f04a5f)
+"></center>
 </details>
 
 
