@@ -1,4 +1,4 @@
-<h1 align=center>EcoManga</h1>
+![Diagrama](https://github.com/GustavoHenrique444/EcoManga/assets/127442583/8eaba133-2e13-4665-87cb-878a487efbe2)<h1 align=center>EcoManga</h1>
 
 <p align=justify>		
     A Eco Mangá torna a aprendizagem sobre reciclagem de papel interessante e envolvente. Com opções como "O que é" e "Mangás", você explora de maneira simples por que a reciclagem é importante. Na seção "Mangás", você vai encontrar histórias interativas e cheias de ilustrações que explicam a reciclagem. Projetado especialmente para jovens, a Eco Mangá é uma forma envolvente de aprender sobre cuidados com o ambiente.
@@ -51,5 +51,6 @@ Essas características combinadas criam uma experiência atraente e informativa 
 
 <details>
     <summary><h1>Diagrama de Classe</h1></summary>
-    <center><img src="Downloads/Diagrama.png"></center>
+    <center><img src="![Diagrama](https://github.com/GustavoHenrique444/EcoManga/assets/127442583/ac25b53d-3934-41e4-8575-2f27c7773989)
+"></center>
 </details>
