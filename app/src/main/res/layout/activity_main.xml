@@ -14,7 +14,8 @@
         android:layout_marginStart="155dp"
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="298dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#808080"
+        android:fontFamily="@font/roboto"
         android:text="@string/o_que"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
@@ -32,7 +33,8 @@
         android:layout_marginTop="13dp"
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="207dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#808080"
+        android:fontFamily="@font/roboto"
         android:text="@string/mang_s"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
@@ -54,5 +56,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/whatsapp_image_2023_06_22_at_06_59_15" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="149dp"
+        android:backgroundTint="#808080"
+        android:fontFamily="@font/roboto"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmanga"
+        app:layout_constraintVertical_bias="0.4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
