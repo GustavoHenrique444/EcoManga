@@ -59,21 +59,19 @@
 
     <Button
         android:id="@+id/btnlogin"
-        android:layout_width="104dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="149dp"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="148dp"
         android:backgroundTint="#808080"
         android:fontFamily="@font/roboto"
         android:text="Login"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmanga"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintTop_toBottomOf="@+id/btnmanga" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
