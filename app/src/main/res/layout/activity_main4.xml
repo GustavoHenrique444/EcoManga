@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity4">
 
     <ImageView
@@ -16,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/whatsapp_image_2023_06_22_at_06_59_15" />
+        app:srcCompat="@drawable/whatsapp_image_2023_06_22_at_06_59_15"
+        tools:ignore="ContentDescription,UnknownIdInLayout" />
 
     <Button
         android:id="@+id/btnentrar"
@@ -29,10 +31,13 @@
         android:backgroundTint="#808080"
         android:fontFamily="@font/roboto"
         android:text="Entrar"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextSenha"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -42,12 +47,14 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="99dp"
         android:ems="10"
+        android:hint="@string/Email"
         android:inputType="text"
         android:minHeight="48dp"
-        android:text="Email"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextFields" />
 
     <EditText
         android:id="@+id/editTextSenha"
@@ -57,10 +64,12 @@
         android:layout_marginTop="47dp"
         android:layout_marginEnd="99dp"
         android:ems="10"
+        android:hint="@string/Senha"
         android:inputType="text"
         android:minHeight="48dp"
-        android:text="Senha"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+        tools:ignore="Autofill,HardcodedText,LabelFor" />
 </androidx.constraintlayout.widget.ConstraintLayout>

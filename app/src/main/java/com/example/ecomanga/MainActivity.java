@@ -30,6 +30,13 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, MainActivity4.class);
             startActivity(intent);
         });
+
+        Button btnreci = findViewById(R.id.btnreci);
+        btnreci.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, MainActivity5.class);
+            startActivity(intent);
+        });
+
     }
 
 

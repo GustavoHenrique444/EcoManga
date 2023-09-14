@@ -32,7 +32,8 @@
       android:layout_height="769dp"
       android:layout_marginStart="68dp"
       app:layout_constraintStart_toStartOf="parent"
-      tools:layout_editor_absoluteY="31dp">
+      tools:layout_editor_absoluteY="31dp"
+      tools:ignore="MissingConstraints">
 
     <TextView
         android:layout_width="match_parent"
@@ -53,7 +54,8 @@ Aqui estão algumas curiosidades sobre o papel:
 2. No passado, outras substâncias foram usadas como materiais de escrita antes do papel, como papiro, pergaminho e seda.
 3. A primeira fábrica de papel na América do Norte foi estabelecida em 1690, na cidade de Germantown, atualmente parte de Filadélfia, Estados Unidos.
 4. O papel pode ser reciclado várias vezes. Cada vez que é reciclado, as fibras de celulose se tornam mais curtas e a qualidade do papel diminui, o que leva a uma redução gradual na quantidade de vezes que pode"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText" />
 
   </ScrollView>
 

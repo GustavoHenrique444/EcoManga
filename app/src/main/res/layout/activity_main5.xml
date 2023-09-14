@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="@font/roboto"
+        android:scrollbarSize="26sp"
+        android:text="Onde Reciclar?"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="400dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="416dp"
+        app:cardBackgroundColor="#F38F00"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnsite"
+            android:layout_width="118dp"
+            android:layout_height="56dp"
+            android:backgroundTint="#808080"
+            android:fontFamily="@font/roboto"
+            android:onClick="site"
+            android:text="Ver Mais"
+            android:textColor="#FFFFFF"
+            android:translationX="400px"
+            android:translationY="300px"
+            tools:ignore="HardcodedText,PxUsage,TextContrastCheck,VisualLintBounds" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="113dp"
+            android:layout_height="99dp"
+            android:translationX="-6dp"
+            android:translationY="10dp"
+            app:srcCompat="@drawable/reciclagem"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="332dp"
+            android:layout_height="99dp"
+            android:paddingLeft="99dp"
+            android:paddingTop="10dp"
+            android:text="Clique aqui para aprender a como reciclar o papel:"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
