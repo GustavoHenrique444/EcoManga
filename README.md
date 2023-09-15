@@ -58,8 +58,17 @@ Essas características combinadas criam uma experiência atraente e informativa 
 
 <details>
 	<summary><h1>O que foi adicionado?</h1></summary>
-	  <li align=justify><strong>Interface Acolhedora:</strong> A tela inicial apresenta um fundo branco e um logotipo amigável "Eco Mangá", dando as boas-vindas aos usuários de forma convidativa.
+	<li align=justify><strong>Tela de Login:</strong> A tela de login é a porta de entrada para os usuários explorarem nosso aplicativo. Ela permite que os usuários criem uma conta para acessar nosso aplicativo e descobrir como funciona o processo de reciclagem de papel e outros materiais. Além disso, ao fazer o login, os usuários também terão acesso aos mangás disponíveis em nossa plataforma, ampliando ainda mais sua experiência no aplicativo. 
         </li>
+	<br>
+ 
+ <Li align=justify><strong>Como Reciclar?</strong>A tela 'Como Reciclar' foi desenvolvida com o propósito de educar as pessoas sobre a importância da preservação do meio ambiente por meio da reciclagem de diversos materiais, incluindo papel, metais, resíduos orgânicos e muito mais. Essa funcionalidade visa capacitar os usuários a adotar práticas sustentáveis, contribuindo assim para a proteção do nosso planeta e o cuidado com o meio ambiente.
+ </Li>
+	<br>
+	
+<Li align=justify><strong>Outros tipos de materiais:</strong> Nosso aplicativo tem como objetivo central incentivar a reciclagem, com um foco especial no papel, mas reconhecemos que há uma ampla variedade de materiais recicláveis disponíveis. A tela "Recicláveis Diversos" foi projetada para informar aos usuários sobre a diversidade de materiais que podem ser reciclados em nosso planeta. Queremos promover uma compreensão abrangente dos recursos recicláveis, incentivando práticas sustentáveis e uma maior conscientização sobre a importância da reciclagem em nosso ambiente.
+</Li>
 </details>
+
 
 
