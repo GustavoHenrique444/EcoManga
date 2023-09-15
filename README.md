@@ -3,7 +3,7 @@
 <h3 align="center">Integrantes: Gustavo Henrique da Silva Souza e Guilherme Sola Gárcia</h3>
 
 <p align=justify>		
-    A Eco Mangá torna a aprendizagem sobre reciclagem de papel interessante e envolvente. Com opções como "O que é" e "Mangás", você explora de maneira simples por que a reciclagem é importante. Na seção "Mangás", você vai encontrar histórias interativas e cheias de ilustrações que explicam a reciclagem. Projetado especialmente para jovens, a Eco Mangá é uma forma envolvente de aprender sobre cuidados com o ambiente.
+    Nosso aplicativo oferece uma experiência completa e educativa focada na preservação ambiental e reciclagem. Os usuários podem criar uma conta na "Tela 1: Login" para acessar todas as funcionalidades. Após o login, eles exploram o "Menu" na "Tela 2", onde a seção mais empolgante é a "Tela 3: Mangás", que traz histórias interativas e ilustrações envolventes sobre reciclagem. O aplicativo também inclui a "Tela 4: Como Reciclar", ensinando práticas sustentáveis, e a "Tela 5: Recicláveis Diversos", com informações sobre tipos de materiais recicláveis. Uma ferramenta completa para aprender e contribuir para o cuidado do meio ambiente.
 </p>
 
 <details>
