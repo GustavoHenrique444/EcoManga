@@ -56,4 +56,10 @@ Essas características combinadas criam uma experiência atraente e informativa 
 	</div>
 </details>
 
+<details>
+	<summary><h1>O que foi adicionado?</h1></summary>
+	  <li align=justify><strong>Interface Acolhedora:</strong> A tela inicial apresenta um fundo branco e um logotipo amigável "Eco Mangá", dando as boas-vindas aos usuários de forma convidativa.
+        </li>
+</details>
+
 
