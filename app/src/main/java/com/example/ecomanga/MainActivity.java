@@ -25,18 +25,17 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        Button btnlogin = findViewById(R.id.btnlogin);
-        btnlogin.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, MainActivity4.class);
-            startActivity(intent);
-        });
-
         Button btnreci = findViewById(R.id.btnreci);
         btnreci.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MainActivity5.class);
             startActivity(intent);
         });
 
+        Button btnmateri = findViewById(R.id.btnmateri);
+        btnmateri.setOnClickListener(v ->{
+            Intent intent = new Intent(MainActivity.this, MainActivity6.class);
+            startActivity(intent);
+        });
     }
 
 

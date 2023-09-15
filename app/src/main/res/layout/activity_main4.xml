@@ -36,11 +36,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextSenha"
+        app:layout_constraintTop_toBottomOf="@+id/senha"
         tools:ignore="HardcodedText,TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="102dp"
@@ -57,7 +57,7 @@
         tools:ignore="Autofill,HardcodedText,LabelFor,TextFields" />
 
     <EditText
-        android:id="@+id/editTextSenha"
+        android:id="@+id/senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="102dp"
@@ -70,6 +70,6 @@
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         tools:ignore="Autofill,HardcodedText,LabelFor" />
 </androidx.constraintlayout.widget.ConstraintLayout>

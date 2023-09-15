@@ -13,10 +13,13 @@
         android:theme="@style/Theme.EcoManga"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity5"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".onepiece"
@@ -34,7 +37,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity4"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
