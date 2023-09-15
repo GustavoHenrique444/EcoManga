@@ -45,7 +45,7 @@ Essas características combinadas criam uma experiência atraente e informativa 
     <summary><h1>Detalhes do Aplicativo</h1></summary>
     <ul>
         <li><strong>Versão do Android:</strong> 9.0 (Pie);</li>
-        <li><strong>Número de Telas:</strong> 6;</li>
+        <li><strong>Número de Telas:</strong> 9;</li>
         <li><strong>Linguagem de Programação:</strong> Java;</li>
         <li><strong>IDE</strong> Android Studio;</li>
     </ul>
