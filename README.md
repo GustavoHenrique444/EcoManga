@@ -1,5 +1,7 @@
 <h1 align=center>EcoManga</h1>
 
+<h3 align="center">Integrantes: Gustavo Henrique da Silva Souza e Guilherme Sola Gárcia</h3>
+
 <p align=justify>		
     A Eco Mangá torna a aprendizagem sobre reciclagem de papel interessante e envolvente. Com opções como "O que é" e "Mangás", você explora de maneira simples por que a reciclagem é importante. Na seção "Mangás", você vai encontrar histórias interativas e cheias de ilustrações que explicam a reciclagem. Projetado especialmente para jovens, a Eco Mangá é uma forma envolvente de aprender sobre cuidados com o ambiente.
 </p>
@@ -57,12 +59,12 @@ Essas características combinadas criam uma experiência atraente e informativa 
 </details>
 
 <details>
-	<summary><h1>O que foi adicionado?</h1></summary>
+	<summary><h1>Atualizações</h1></summary>
 	<li align=justify><strong>Tela de Login:</strong> A tela de login é a porta de entrada para os usuários explorarem nosso aplicativo. Ela permite que os usuários criem uma conta para acessar nosso aplicativo e descobrir como funciona o processo de reciclagem de papel e outros materiais. Além disso, ao fazer o login, os usuários também terão acesso aos mangás disponíveis em nossa plataforma, ampliando ainda mais sua experiência no aplicativo. 
         </li>
 	<br>
  
- <Li align=justify><strong>Como Reciclar?</strong>A tela 'Como Reciclar' foi desenvolvida com o propósito de educar as pessoas sobre a importância da preservação do meio ambiente por meio da reciclagem de diversos materiais, incluindo papel, metais, resíduos orgânicos e muito mais. Essa funcionalidade visa capacitar os usuários a adotar práticas sustentáveis, contribuindo assim para a proteção do nosso planeta e o cuidado com o meio ambiente.
+ <Li align=justify><strong>Como Reciclar?:</strong> A tela 'Como Reciclar' foi desenvolvida com o propósito de educar as pessoas sobre a importância da preservação do meio ambiente por meio da reciclagem de diversos materiais, incluindo papel, metais, resíduos orgânicos e muito mais. Essa funcionalidade visa capacitar os usuários a adotar práticas sustentáveis, contribuindo assim para a proteção do nosso planeta e o cuidado com o meio ambiente.
  </Li>
 	<br>
 	
